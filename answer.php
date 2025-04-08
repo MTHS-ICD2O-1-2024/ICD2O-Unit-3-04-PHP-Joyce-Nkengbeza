@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!-- ICS2O-Unit3-01-HTML-MDL -->
+<!-- ICS2O-Unit3-04PHP-HTML-MDL -->
 <html lang="en-ca">
 
 <head>
   <meta charset="utf-8" />
-  <meta name="description" content="Area Of Trapezod, PHP " />
+  <meta name="description" content="Fahrenheit to Celsius, PHP " />
   <meta name="keywords" content="mths, icd2o" />
   <meta name="author" content="Joyce Nkengbeza" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -30,7 +30,7 @@
     sizes="16x16"
     href="./favicon-16x16new.png" />
   <link rel="manifest" href="./site.webmanifest" />
-  <title>Area Of Trapezoid In PHP</title>
+  <title>Fahrenheit to Celsius, PHP</title>
 </head>
 
 <body>
@@ -38,24 +38,22 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Area Of Trapezoid, PHP</span>
+        <span class="mdl-layout-title">Fahrenheit to Celsius, PHP</span>
       </div>
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/trapezoid.svg" alt="Area of Trapezoid Image" />
+        <img src="./images/celsius-to-fahrenheit.png" alt="fahrenheit to celsius Image" />
       </div>
       <div class="page-content-php">
-        <div id="area-trapezoid">
+        <div id="temperature">
           <?php
-          $abase = $_GET["a-base"];
-          $bbase = $_GET["b-base"];
-          $height = $_GET["height-length"];
+          $fahrenheit = $_GET["fahrenheit"];
           // process
-          $area = (($abase + $bbase) / 2) * $height;
+          $celsius = ($fahrenheit - 32) * 5/9;
 
           // output 
-          echo "The area of the Trapezoid is:" . $area . "cm²";
+          echo "The Temperature is" . $celsius . "°";
           ?>
         </div>
         <div class="page-content-answer">
