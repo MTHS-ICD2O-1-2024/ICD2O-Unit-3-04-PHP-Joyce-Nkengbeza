@@ -46,8 +46,9 @@
       <div class="right-image">
         <img src="./images/celsius-to-fahrenheit.png" alt="Fahrenheit to Celsius Image" />
       </div>
+      <p> Fahrenheit to Celsius PHP </p>
       <h3>Formula</h3>
-      <div class="page-content-php">
+      <div class="page-content-php"> 
         <h2>(32°F - 32) x 5/9 = 0°C</h2>
       </div>
       <br />
@@ -59,6 +60,7 @@
             <label class="mdl-textfield__label" for="fahrenheit"> Fahrenheit ...</label>
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
+      <br/>
           <!-- Accent-colored raised button with ripple -->
           <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
             type="submit">

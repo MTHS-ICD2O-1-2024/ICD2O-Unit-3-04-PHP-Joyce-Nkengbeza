@@ -43,7 +43,7 @@
     </header>
     <main class="mdl-layout__content">
       <div class="right-image">
-        <img src="./images/celsius-to-fahrenheit.png" alt="fahrenheit to celsius Image" />
+        <img src="./images/celsius-to-fahrenheit.png" alt="Fahrenheit to celsius Image" />
       </div>
       <div class="page-content-php">
         <div id="temperature">
@@ -53,7 +53,7 @@
           $celsius = ($fahrenheit - 32) * 5/9;
 
           // output 
-          echo "The Temperature is" . $celsius . "°";
+          echo "The Temperature is" + " " . $celsius ."°";
           ?>
         </div>
         <div class="page-content-answer">
