@@ -53,7 +53,7 @@
           $celsius = ($fahrenheit - 32) * 5/9;
 
           // output 
-          echo "If temp. in fahrenheit is" . $fahrenheit . "°";
+          echo "If temp. in fahrenheit is " . $fahrenheit . "°";
           echo "<br />";
           echo " Then temp. in celsius is " . $celsius . "°";
           ?>
